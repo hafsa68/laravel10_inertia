@@ -19,6 +19,8 @@ use Inertia\Inertia;
 
 Route::get('/',[FrontController::class,'home']);
 Route::get('/about',[FrontController::class,'about']);
+Route::get('/book',[FrontController::class,'book']);
+Route::get('/book/create',[FrontController::class,'create']);
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');

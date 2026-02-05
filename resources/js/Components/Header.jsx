@@ -50,7 +50,7 @@ function Header() {
                     <div class="navbar-nav ms-auto py-0">
                         <Link href="index.html" class="nav-item nav-link active">Home</Link>
                         <Link href="/about" class="nav-item nav-link">About</Link>
-                        <Link href="service.html" class="nav-item nav-link">Service</Link>
+                        <Link href="/book" class="nav-item nav-link">Booking</Link>
                         <Link href="price.html" class="nav-item nav-link">Pricing</Link>
                         <div class="nav-item dropdown">
                             <Link href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
