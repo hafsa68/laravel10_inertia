@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Inertia\Inertia;
-use DB;
+
+use Illuminate\Support\Facades\DB;
 
 class FrontController extends Controller
 {
@@ -23,5 +24,10 @@ class FrontController extends Controller
 
  
         return Inertia::render('BookEntry');
+    }
+    public function store(Request $request){
+dd($request);
+ 
+        return Inertia::render('BookStore');
     }
 }
